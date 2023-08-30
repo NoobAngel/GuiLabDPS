@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css'
 //utilizando reactstrap para poder usar ventanas modales
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,6 +13,8 @@ import {
   FormGroup,
   ModalFooter,
 } from "reactstrap";
+
+
 
 //tabla de contactos
 class App extends React.Component {
@@ -113,6 +114,8 @@ class App extends React.Component {
     return (
       <>
       <Container>
+        <br></br>
+        <h1>Administrador de Contactos</h1>
           <br />
           <Button color="success" onClick={() => this.mostrarModalInsertar()}>
             Crear Contacto</Button>
